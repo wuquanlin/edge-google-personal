@@ -4,6 +4,8 @@
 
 Personal Microsoft Edge default-search guard: an unpacked extension declares Google as the default search provider; a per-user Windows sign-in task requests a real default-search API check.
 
+**下载：** [Windows 使用包](https://github.com/wuquanlin/edge-google-personal/releases/download/v1.0.0/EdgeGooglePersonal-1.0.0-windows.zip) · [完整源码包](https://github.com/wuquanlin/edge-google-personal/releases/download/v1.0.0/EdgeGooglePersonal-1.0.0-source.zip) · [发布页面与 SHA-256 校验](https://github.com/wuquanlin/edge-google-personal/releases/tag/v1.0.0)
+
 **当前版本：1.0.0。** 扩展公钥、扩展 ID、PowerShell 脚本及浏览器运行代码均保留自已完成重启验证的实现。公开版整理了文档、测试和打包工具，没有改写正在使用的守护逻辑。
 
 ## 安装
