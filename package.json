@@ -1,0 +1,11 @@
+{
+  "name": "edge-google-personal",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Local default Google search guard for personal Microsoft Edge profiles",
+  "license": "MIT",
+  "scripts": {
+    "test": "node tests/test-personal-guard.mjs && node tests/test-release.mjs",
+    "test:windows": "powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -File tests/Test-PersonalGuard.ps1"
+  }
+}

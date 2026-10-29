@@ -1,0 +1,18 @@
+{
+  "description": "SHA-256 of the unchanged runtime files supplied for the 1.0.0 share release. Public manifest key is preserved; no private key is included.",
+  "version": "1.0.0",
+  "extensionId": "fnbpglchnbbhcmjcoapbafejooijecah",
+  "files": {
+    "Guard.ps1": "764e7f5dcbdd37dfb2e0a6a9757bcb368471f8b16463fc426845bf7d0c6e6205",
+    "Install.cmd": "025de46709420c3cf06289fdf95fd729508e33a751f405f0e09a9b447f09c0d0",
+    "Check.cmd": "455c0938de7aace417035ce87702b80db382449223a0e913f8cb9ce3b9b62ebb",
+    "Verify.cmd": "b00ba4918f2ceab025d818bb649f10a20d311f2161925c9d5a2f53ebf2a0a235",
+    "Uninstall.cmd": "762d8b8174d93d58567122151965029b571936c873f331f32ca6795c48fc90d8",
+    "extension-id.txt": "256be6817a28ca3e16a91bf42cb813a6d76331d7e4edc329d4e72486a2d1a781",
+    "Extension/manifest.json": "0b93229c0aec56c20ac92c93f4dac931b0d3687c081cbcb6e21858736e803d44",
+    "Extension/popup.html": "8d4289f741ce2bcef7b929753334c2677260d2229a962a2d1b587210ab84f5c8",
+    "Extension/popup.js": "ac749bd84598072d94f4a1689c72b2e744cdbeeb24ad7c784bd10581704a36b3",
+    "Extension/verify.js": "df0f857bba46a85fb3c6432a43afed953d2e102b410bf0ca7fa2fede4e845091",
+    "Extension/worker.js": "d0198ba057e9300bcb0e5fb886b05bc7e31e9902be910a44beeb0be7c85c5fe5"
+  }
+}

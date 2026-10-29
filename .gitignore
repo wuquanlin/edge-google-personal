@@ -1,0 +1,25 @@
+# Local installed state and historical reports are never source assets.
+**/config.json
+**/login-request.json
+**/login.log*
+**/reboot-verification.json
+**/installation-status.json
+**/code-verification.json
+**/powershell-verification.txt
+**/EdgeGoogle-verification.json
+**/交接说明.md
+*.tmp
+*.bak
+*.log
+*.old
+*.zip
+*.pem
+*.pfx
+*.key
+personal-fixture-*/
+dist/
+node_modules/
+__pycache__/
+.DS_Store
+Thumbs.db
+desktop.ini

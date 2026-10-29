@@ -1,0 +1,36 @@
+{
+  "version": "1.0.0",
+  "archiveTimestamp": [2026, 10, 29, 0, 0, 0],
+  "runtimeFiles": [
+    "Guard.ps1",
+    "Install.cmd",
+    "Check.cmd",
+    "Verify.cmd",
+    "Uninstall.cmd",
+    "extension-id.txt",
+    "Extension/manifest.json",
+    "Extension/popup.html",
+    "Extension/popup.js",
+    "Extension/verify.js",
+    "Extension/worker.js"
+  ],
+  "sourceOnlyFiles": [
+    ".gitattributes",
+    ".gitignore",
+    "package.json",
+    "tests/test-personal-guard.mjs",
+    "tests/test-release.mjs",
+    "tests/Test-PersonalGuard.ps1",
+    "scripts/build_release.py",
+    "scripts/release-files.json"
+  ],
+  "sharedFiles": [
+    "README.md",
+    "LICENSE",
+    "RELEASE_NOTES.md",
+    "docs/GITHUB.md",
+    "docs/VERIFICATION.md",
+    "docs/runtime-sha256.json"
+  ],
+  "runtimeGuide": "开始使用.md"
+}

@@ -1,0 +1,34 @@
+{
+  "manifest_version": 3,
+  "name": "Google 搜索守护（个人版）",
+  "version": "1.0.0",
+  "description": "将默认搜索引擎设为 Google，并用默认搜索接口验证登录后的实际搜索请求。",
+  "permissions": [
+    "search",
+    "storage",
+    "alarms"
+  ],
+  "host_permissions": [
+    "https://www.google.com/*"
+  ],
+  "background": {
+    "service_worker": "worker.js",
+    "type": "module"
+  },
+  "action": {
+    "default_title": "Google 搜索守护：查看实际校验结果",
+    "default_popup": "popup.html"
+  },
+  "chrome_settings_overrides": {
+    "search_provider": {
+      "name": "Google",
+      "keyword": "google.com",
+      "search_url": "https://www.google.com/search?q={searchTerms}",
+      "suggest_url": "https://www.google.com/complete/search?output=chrome&q={searchTerms}",
+      "favicon_url": "https://www.google.com/favicon.ico",
+      "encoding": "UTF-8",
+      "is_default": true
+    }
+  },
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlLbVLG5IPkSauVOJj3BcCS+CBMerI3Ek1MiLoNLYo2jJfcpjzG2yxwoGr9OjuQNy68rOgC+zBoNLQ8Jk2fZo8m0nRsHfZUQo9gestgJpDIiM6DU0hHnANk4uTc+iqOrqLKvQABRIfIxSUI/ieyzA33IYNxOBuh9zbvK/9KR+s2t5E6QzDK566MQCzbsLnKz3zD9egMdGRRH0/WOrd4u5FvCnuDr+PjtzrXbwutC3GC3fXyuBObC8Z0lDkEgPnyAqdWCQnzdJgLXhugiAKV5M9A3085GjOKgJzBC/kP0yeXXN2kfCURJt6wsuEPdnAeZZWeTm1LsZaGkmZKSbL+fMqwIDAQAB"
+}

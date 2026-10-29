@@ -1,0 +1,3 @@
+* text=auto
+# Keep verified runtime bytes unchanged across Git checkouts.
+EdgeGooglePersonal/** -text
